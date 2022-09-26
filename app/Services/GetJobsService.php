@@ -94,7 +94,7 @@ class GetJobsService
 
         foreach ($data as $item){
             Job::updateOrCreate(
-                ['title' => $item['title']],
+                ['title' => $item['title'], 'company' => $item['company']],
                 $item
             );
         }
