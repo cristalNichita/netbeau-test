@@ -7,4 +7,5 @@
 - copy .env.example and create .env file
 - edit .env file
 - php artisan migrate --seed
+- php artisan key:generate
 - php artisan serve
